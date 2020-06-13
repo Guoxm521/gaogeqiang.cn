@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>工程案例添加页面</title>
+    <link rel="stylesheet" href="./../index.css">
+</head>
+<body>
+    <form action="./add.php" method="POST" enctype="multipart/form-data">
+        <fieldset>
+            <legend>产品中心添加页面</legend>
+            <label>
+                名称：<input type="text" name="name">
+            </label>
+            <label for="">类别选择：
+                <select name="classfiy" id="">
+                    <option value="高隔断">高隔断</option>
+                    <option value="家具">家具</option>
+                </select>
+            </label>
+            <label>
+                内容：
+                <textarea name="content" id="" cols="40" rows="10"></textarea>
+            </label>
+            <label for="">
+                上传图片：<input type="file" name="img">
+            </label>
+            <label for="">
+                <input type="submit" value="提交">
+            </label>
+        </fieldset>
+        
+    </form>
+</body>
+</html>

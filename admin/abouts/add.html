@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>关于我们添加页面</title>
+    <link rel="stylesheet" href="./../index.css">
+</head>
+<body>
+    <form action="./add.php" method="POST" enctype="multipart/form-data">
+        <fieldset style="padding-bottom: 10px;">
+            <legend>关于我们添加页面</legend>
+            <label>
+                名称：<input type="text" name="name">
+            </label>
+            <label for="">
+                上传图片：<input type="file" name='aboutimg'>
+            </label>
+            <label>
+                内容：
+                <textarea name="content" id="" cols="40" rows="13"></textarea>
+            </label>
+            <label for="">
+                <input type="submit" value="提交">
+            </label>
+        </fieldset>
+        
+    </form>
+</body>
+</html>

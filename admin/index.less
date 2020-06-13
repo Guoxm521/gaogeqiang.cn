@@ -1,0 +1,190 @@
+body {
+    width: 1200px;
+    margin: 0 auto;
+}
+a  {
+    text-decoration: none;
+}
+li {
+    list-style: none;
+}
+
+/* 顶部搜索框 */
+#search form{
+    height: 50px;
+    text-align: right;
+    width: 100%;
+}
+#search input {
+    height: 30px;
+    box-sizing: border-box;
+    vertical-align: middle;
+    margin-left: 10px;
+}
+#search select {
+    height: 30px;
+    vertical-align: middle;
+    margin-left: 10px;
+    padding-left: 5px;
+}
+/* 操作删除 */
+#handle {
+    float: left;
+}
+#handle a {
+    display: inline-block;
+    height: 30px;
+    border: 1px solid #666666;
+    line-height: 30px;
+    padding: 0 10px;
+    border-radius: 2px;
+}
+/* 页码 */
+#pages ul {
+    text-align: right;
+}
+#pages li{
+    display: inline-block;
+    border: 1px solid red;
+    background-color: pink;
+    padding: 5px 10px;
+    margin: 0 3px;
+    line-height: 20px;
+    font-size: 16px;
+}
+// 关于我们页面
+#about {
+    thead {
+        height: 25px;
+        line-height: 25px;
+        th:nth-child(1) {
+            width: 50px;
+        }
+        th:nth-child(2n) {
+            width: 100px;
+        }
+        th:last-child {
+            width: 100px;
+        }
+    }
+    img {
+        display: block;
+        width: 150px;
+    }
+    tbody td:not(:nth-child(3)) {
+        text-align: center;
+    }
+}
+// 工程案例页面
+#project {
+    table {
+        width: 100%;
+        text-align: center;
+    }
+    thead {
+        height: 25px;
+        line-height: 25px;
+    }
+    tbody {
+        img {
+            display: block;
+            width: 150px;
+            margin: 0 auto;
+        }
+        .content {
+            width: 400px;
+        }
+    }
+}
+// 新闻中心
+#news {
+    table {
+        width: 100%;
+        text-align: center;
+        .content {
+            width: 700px;
+        }
+    }
+
+    thead {
+        height: 25px;
+        line-height: 25px;
+    }
+    
+}
+// 留言表
+#feedback {
+    table {
+        width: 100%;
+        text-align: center;
+    }
+}
+// 系统设置
+#sysset {
+    margin: 10px 25px;
+    tr {
+        height: 50px;
+        font-size: 24px;
+    }
+   tr:last-child {
+       background-color: pink;
+       
+       margin: 0 20px;
+       border-radius: 8px;
+       text-align: center;
+       a {
+           display: block;
+       }
+   }
+}
+
+// 提交表单样式
+form {
+    width: 500px;
+    fieldset {
+        font-size: 24px;
+        padding-top: 40px;
+        label {
+            display: block;
+            margin-bottom: 15px;
+            font-size: 20px;
+            input {
+                width: 300px;
+                height: 25px;
+                vertical-align: middle;
+            }
+            select{
+                height: 28px;
+                width: 120px;
+                padding-left: 10px;
+                vertical-align: middle;
+            }
+            textarea {
+                vertical-align: top;
+                margin-left: -5px;
+            }
+            input[type=submit] {
+                width: 100px;
+                height: 35px;
+                margin-left: 60px;
+            }
+            input[type=file] {
+                vertical-align: middle;
+            }
+            
+        }
+    }
+    .img {
+        display: block;
+        width: 200px;
+        margin-left: 60px;
+        margin-bottom: 15px;
+    }
+}
+// 搜索结果无数据时
+#nodate {
+    height: 100px;
+    font-size: 24px;
+    color: red;
+    text-align: center;
+}

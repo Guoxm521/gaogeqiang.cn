@@ -1,0 +1,167 @@
+body {
+  width: 1200px;
+  margin: 0 auto;
+}
+a {
+  text-decoration: none;
+}
+li {
+  list-style: none;
+}
+/* 顶部搜索框 */
+#search form {
+  height: 50px;
+  text-align: right;
+  width: 100%;
+}
+#search input {
+  height: 30px;
+  box-sizing: border-box;
+  vertical-align: middle;
+  margin-left: 10px;
+}
+#search select {
+  height: 30px;
+  vertical-align: middle;
+  margin-left: 10px;
+  padding-left: 5px;
+}
+/* 操作删除 */
+#handle {
+  float: left;
+}
+#handle a {
+  display: inline-block;
+  height: 30px;
+  border: 1px solid #666666;
+  line-height: 30px;
+  padding: 0 10px;
+  border-radius: 2px;
+}
+/* 页码 */
+#pages ul {
+  text-align: right;
+}
+#pages li {
+  display: inline-block;
+  border: 1px solid red;
+  background-color: pink;
+  padding: 5px 10px;
+  margin: 0 3px;
+  line-height: 20px;
+  font-size: 16px;
+}
+#about thead {
+  height: 25px;
+  line-height: 25px;
+}
+#about thead th:nth-child(1) {
+  width: 50px;
+}
+#about thead th:nth-child(2n) {
+  width: 100px;
+}
+#about thead th:last-child {
+  width: 100px;
+}
+#about img {
+  display: block;
+  width: 150px;
+}
+#about tbody td:not(:nth-child(3)) {
+  text-align: center;
+}
+#project table {
+  width: 100%;
+  text-align: center;
+}
+#project thead {
+  height: 25px;
+  line-height: 25px;
+}
+#project tbody img {
+  display: block;
+  width: 150px;
+  margin: 0 auto;
+}
+#project tbody .content {
+  width: 400px;
+}
+#news table {
+  width: 100%;
+  text-align: center;
+}
+#news table .content {
+  width: 700px;
+}
+#news thead {
+  height: 25px;
+  line-height: 25px;
+}
+#feedback table {
+  width: 100%;
+  text-align: center;
+}
+#sysset {
+  margin: 10px 25px;
+}
+#sysset tr {
+  height: 50px;
+  font-size: 24px;
+}
+#sysset tr:last-child {
+  background-color: pink;
+  margin: 0 20px;
+  border-radius: 8px;
+  text-align: center;
+}
+#sysset tr:last-child a {
+  display: block;
+}
+form {
+  width: 500px;
+}
+form fieldset {
+  font-size: 24px;
+  padding-top: 40px;
+}
+form fieldset label {
+  display: block;
+  margin-bottom: 15px;
+  font-size: 20px;
+}
+form fieldset label input {
+  width: 300px;
+  height: 25px;
+  vertical-align: middle;
+}
+form fieldset label select {
+  height: 28px;
+  width: 120px;
+  padding-left: 10px;
+  vertical-align: middle;
+}
+form fieldset label textarea {
+  vertical-align: top;
+  margin-left: -5px;
+}
+form fieldset label input[type=submit] {
+  width: 100px;
+  height: 35px;
+  margin-left: 60px;
+}
+form fieldset label input[type=file] {
+  vertical-align: middle;
+}
+form .img {
+  display: block;
+  width: 200px;
+  margin-left: 60px;
+  margin-bottom: 15px;
+}
+#nodate {
+  height: 100px;
+  font-size: 24px;
+  color: red;
+  text-align: center;
+}
