@@ -24,16 +24,26 @@
             text-decoration: none;
             font-size: 24px;
         }
+        
+        #logout {
+            float: right;
+        }
     </style>
 </head>
 <body>
-    <ul class="header">
+    <?php
+        include './fun.php';
+        islogin();
+    ?>
+    <ul class="header" >
         <li><a href="./abouts/index.php" target="admin">关于我们</a></li>
         <li><a href="./cases/index.php" target="admin">工程案例</a></li>
         <li><a href="./product/" target="admin">产品案例</a></li>
         <li><a href="./news/index.php" target="admin">新闻中心</a></li>
         <li><a href="./feedback/index.html" target="admin">留言表</a></li>
         <li><a href="./sysset/index.php" target="admin">系统信息设置</a></li>
+        <div id="logout"><span>管理员</span>,<a href="./login/exit.php"  style="font-size: 16px;">退出</a></div>
     </ul>
+    
 </body>
 </html>

@@ -9,6 +9,7 @@
 	<body>
 		<?php
 			include './../fun.php';
+			islogin();
 			// 搜索
 			$name = isset($_GET['name'])?$_GET['name']:"";
 			$classfiy = isset($_GET['classfiy'])?$_GET['classfiy']:"";

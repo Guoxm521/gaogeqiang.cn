@@ -9,6 +9,7 @@
 	<body>
         <?php
             include './../fun.php';
+            islogin();
             $mysql = new Mysql('system');
             $result=$mysql->selectAll();
             $result = $result[0];

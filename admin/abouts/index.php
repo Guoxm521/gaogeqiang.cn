@@ -13,6 +13,7 @@
         // $result = $mysql->selectAll();
         // dump($result);
         // 搜索
+        islogin();
         $name = isset($_GET['name'])?$_GET['name']:"";
 		$arr =  selectByser($name);
         $search = $arr['search'];

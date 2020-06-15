@@ -165,3 +165,29 @@ form .img {
   color: red;
   text-align: center;
 }
+
+
+/* 登录页面 */
+.logintitle {
+  margin: 0 auto;
+  text-align: center;
+}
+#login{
+  font-size: 20px;
+  margin: 75px auto;
+}
+  #login li{
+    margin-top: 10px;
+  }
+  #login input {
+    width: 350px;
+    height: 30px;
+  }
+  #login input[type=submit] {
+    margin-left: 79px;
+    width: 358px;
+    margin-top: 15px;
+    height: 35px;
+    background-color: orange;
+    border: none;
+  }

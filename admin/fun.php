@@ -258,4 +258,20 @@
     </script>";
     echo $str;
     }
+
+
+    // 密码加密
+    function getEncypt($password) {
+        $password = md5($password);
+        $password =sha1(substr($password,2,15));
+        return $password;
+    }
+// 登录检测
+    function islogin() {
+        session_start();
+        if(!$_SESSION['username']) {
+            echo "<script>alert('请登录');location.href='./login.html';</script>";
+            die();
+        }
+    }
 ?>
